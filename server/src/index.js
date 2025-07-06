@@ -4,15 +4,18 @@ const helmet = require('helmet');
 const cors = require('cors');
 const mongoose = require('mongoose');
 
-require('dotenv').config();
+require('dotenv').config({path: '../.env'});
 
 const middlewares = require('./middlewares');
+const logs = require('../api/logs');
 
 const app = express();
 
 mongoose.connect(process.env.DATABASE_URL,{
     useNewUrlParser:true,
+    useUnifiedTopology: true,
 });
+app.use(express.json());
 
 app.use(morgan('common'));
 app.use(helmet());
@@ -25,6 +28,8 @@ app.get('/',(req, res) => {
         message: 'Hello World!',
     });
 });
+
+app.use('/api/logs',logs);
 
 app.use(middlewares.notFound);
 app.use(middlewares.ErrorHandler);
