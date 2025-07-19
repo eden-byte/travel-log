@@ -1,25 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import {useState, useEffect} from 'react';
+import * as React from 'react';
+import Map from 'react-map-gl/mapbox';
+// If using with mapbox-gl v1:
+// import Map from 'react-map-gl/mapbox-legacy';
+import 'mapbox-gl/dist/mapbox-gl.css';
+import { listLogEntries } from './Api';
+import ReactMapGL, {Marker} from 'react-map-gl'
 
-function App() {
+
+
+
+const App = () => {
+  const [logEntries, setLogEntries] = useState([]);
+  
+  useEffect(() => {
+    (async () => {
+      const logEntries = await listLogEntries();
+      setLogEntries(logEntries);
+    })();
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Map
+      mapboxAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
+      initialViewState={{
+        longitude: -3.7,
+        latitude: 40.42,
+        zoom: 3
+      }}
+      style={{width: '100vw', height: '100vh'}}
+      mapStyle="mapbox://styles/mapbox/streets-v9"
+    >
+      {
+        logEntries.map(entry => {
+
+        })
+      }
+      </ReactMapGL>
   );
-}
+};
 
 export default App;
