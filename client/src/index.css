@@ -13,9 +13,9 @@ code {
     monospace;
 }
 
-.marker{
+/* .marker{
   transform: translate(-50%, -100%);
-}
+} */
 
 .popup{
   max-width: 400px;
