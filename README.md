@@ -20,7 +20,7 @@ This full-stack application transforms my travel experiences into an interactive
 
 ## 🎬 Demo
 
-[Watch the demo video](./demo.mp4) to see the app in action and hear about my semester abroad journey!
+[Watch the demo video](./EdenMap-compressed.mp4) to see the app in action and hear about my semester abroad journey!
 
 ## 🛠️ Built With
 
@@ -45,7 +45,7 @@ This full-stack application transforms my travel experiences into an interactive
 
 1. **Clone the repository**
    ```bash
-   git clone [your-repo-url]
+   git clone https://github.com/eden-byte/travel-log.git
    cd travel-map
    ```
 
@@ -179,4 +179,4 @@ MIT License - feel free to use this for your own travel memories!
 
 *Built with ❤️ and wanderlust*
 
-**[Live Demo](#)** | **[Watch Video Demo](./demo.mp4)** | **[Connect on LinkedIn](#)**
+**[Live Demo](#)** | **[Watch Video Demo](./EdenMap-compressed.mp4)** | **[Connect on LinkedIn](#)**
