@@ -8,21 +8,21 @@ After spending an incredible semester abroad exploring Europe, I wanted a way to
 
 This full-stack application transforms my travel experiences into an interactive visual story, plotting each destination on a map with photos, memories, and ratings.
 
-## ✨ Features
+##  Features
 
-- **📍 Interactive Map**: Click on any pin to explore memories from that location
-- **📸 Photo Integration**: Each location includes photos from the trip
-- **⭐ Personal Ratings**: Rate each destination (1-10 scale)
-- **📝 Travel Notes**: Add comments and descriptions for each place
-- **📅 Visit Dates**: Track when each adventure happened
-- **➕ Add New Memories**: Double-click anywhere on the map to add a new entry
-- **🎨 Visual Design**: Clean, modern interface with custom markers
+- ** Interactive Map**: Click on any pin to explore memories from that location
+- ** Photo Integration**: Each location includes photos from the trip
+- ** Personal Ratings**: Rate each destination (1-10 scale)
+- ** Travel Notes**: Add comments and descriptions for each place
+- ** Visit Dates**: Track when each adventure happened
+- ** Add New Memories**: Double-click anywhere on the map to add a new entry
+- ** Visual Design**: Clean, modern interface with custom markers
 
-## 🎬 Demo
+##  Demo
 
 [Watch the demo video](./EdenMap-compressed.mp4) to see the app in action and hear about my semester abroad journey!
 
-## 🛠️ Built With
+##  Built With
 
 ### Frontend
 - **React** - UI framework
@@ -34,7 +34,7 @@ This full-stack application transforms my travel experiences into an interactive
 - **MongoDB** + **Mongoose** - Database for storing travel memories
 - **CORS** - Cross-origin resource sharing
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Node.js (v14 or higher)
@@ -90,7 +90,7 @@ This full-stack application transforms my travel experiences into an interactive
    
    Navigate to `http://localhost:3000` to see the map!
 
-## 📝 How to Use
+## How to Use
 
 ### Adding a New Location
 1. **Double-click** anywhere on the map
@@ -113,7 +113,7 @@ For best results, use [Imgur](https://imgur.com):
 2. Right-click the image → "Copy image address"
 3. Paste the direct link in the Image URL field
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 travel-map/
@@ -138,7 +138,7 @@ travel-map/
 └── README.md
 ```
 
-## 🎯 Future Enhancements
+## Future Enhancements
 
 - [ ] Photo galleries (multiple photos per location)
 - [ ] Trip statistics (total countries, cities, distance traveled)
@@ -148,7 +148,7 @@ travel-map/
 - [ ] Export memories as PDF/photo book
 - [ ] Categories/tags for different types of activities
 
-## 💡 Why This Project?
+## Why This Project?
 
 As someone who loves to travel but lacks artistic talent for traditional scrapbooking, I wanted to create something that:
 - Preserves memories in a interactive, modern way
@@ -158,25 +158,23 @@ As someone who loves to travel but lacks artistic talent for traditional scrapbo
 
 This project is more than just a map - it's my digital story of an unforgettable semester abroad.
 
-## 🤝 Contributing
+## Contributing
 
 While this is a personal project documenting my travels, I'd love to hear your ideas! Feel free to:
 - Fork the project for your own travel map
 - Suggest features via issues
 - Share how you've customized it for your journey
 
-## 📄 License
+## License
 
 MIT License - feel free to use this for your own travel memories!
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Thanks to my study abroad program for the incredible opportunity
 - All the friends who made these memories worth documenting
 - The open-source community for the amazing tools that made this possible
 
 ---
-
-*Built with ❤️ and wanderlust*
 
 **[Live Demo](#)** | **[Watch Video Demo](./EdenMap-compressed.mp4)** | **[Connect on LinkedIn](#)**
