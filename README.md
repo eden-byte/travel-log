@@ -1,8 +1,8 @@
-# 🗺️ My Semester Abroad Travel Map
+#  My Semester Abroad Travel Map
 
 > *"I can't draw, but I can code."* - A digital alternative to a traditional travel scrapbook
 
-## 📖 The Story
+##  The Story
 
 After spending an incredible semester abroad exploring Europe, I wanted a way to preserve and share my memories. While others might create beautiful hand-drawn scrapbooks, I decided to build something that matched my skills - an interactive travel map that brings my journey to life through code.
 
